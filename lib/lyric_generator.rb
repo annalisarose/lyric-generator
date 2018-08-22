@@ -1,7 +1,5 @@
 #environment file
-require 'bundler'
 require 'SQLite3'
-Bundler.require
 
 DB = {:conn => SQLite3::Database.new("db/words.db")}
 

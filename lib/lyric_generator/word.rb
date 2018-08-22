@@ -12,4 +12,6 @@ class LyricGenerator::Word
     SQL
   end
 
+  DB[:conn].execute
+
 end
