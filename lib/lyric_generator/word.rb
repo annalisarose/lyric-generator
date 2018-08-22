@@ -10,8 +10,7 @@ class LyricGenerator::Word
         adverb TEXT
       )
     SQL
+    DB[:conn].execute
   end
-
-  DB[:conn].execute
-
+  
 end
